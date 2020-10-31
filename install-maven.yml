@@ -1,0 +1,5 @@
+---
+- name: Install maven
+  tasks: servers
+  roles:
+    - role: gantsign.maven
